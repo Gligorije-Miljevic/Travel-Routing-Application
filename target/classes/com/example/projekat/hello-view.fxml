@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="713.0" prefWidth="1424.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox fx:id="comboBoxPocetniGrad" layoutX="18.0" layoutY="62.0" onAction="#writePocetniGrad" prefHeight="25.0" prefWidth="213.0" promptText="Izaberi grad" />
+      <Label fx:id="labelPocetniGrad" layoutX="183.0" layoutY="35.0" prefHeight="17.0" prefWidth="48.0" />
+      <Label layoutX="18.0" layoutY="31.0" prefHeight="25.0" prefWidth="159.0" text="Unesite grad iz koga putujete:" />
+      <ComboBox fx:id="comboBoxKrajnjiGrad" layoutX="249.0" layoutY="62.0" onAction="#writeKrajnjiGrad" prefHeight="25.0" prefWidth="213.0" promptText="Izaberi grad" />
+      <Label layoutX="249.0" layoutY="35.0" prefHeight="17.0" prefWidth="159.0" text="Unesite grad u koji putujete:" />
+      <Label fx:id="labelKrajnjiGrad" layoutX="405.0" layoutY="35.0" prefHeight="17.0" prefWidth="57.0" />
+      <ComboBox fx:id="comboBoxKriterijum" layoutX="473.0" layoutY="62.0" onAction="#writeKriterijum" prefHeight="25.0" prefWidth="295.0" promptText="Izaberi kriterijum" />
+      <Label layoutX="473.0" layoutY="35.0" prefHeight="17.0" prefWidth="159.0" text="Unesite kriterijum pretrage:" />
+      <Label fx:id="labelKriterijum" layoutX="621.0" layoutY="35.0" prefHeight="17.0" prefWidth="141.0" />
+      <Button fx:id="buttonPretrazi" layoutX="792.0" layoutY="62.0" mnemonicParsing="false" onAction="#findShortestPath" prefHeight="25.0" prefWidth="104.0" text="Pretrazi" />
+      <ListView fx:id="listViewRoute" layoutX="18.0" layoutY="369.0" prefHeight="17.0" prefWidth="548.0" />
+      <Button fx:id="buttonKupiKartu" layoutX="14.0" layoutY="663.0" mnemonicParsing="false" onAction="#kupovinaKarte" prefHeight="25.0" prefWidth="104.0" text="Kupi kartu" />
+      <Label fx:id="labelUkupanBrojKarata" layoutX="1134.0" layoutY="50.0" prefHeight="25.0" prefWidth="309.0" />
+      <Label fx:id="labelUkupnaZarada" layoutX="1134.0" layoutY="75.0" prefHeight="25.0" prefWidth="309.0" />
+      <Button fx:id="buttonPrikazDodatnihRuta" layoutX="425.0" layoutY="663.0" mnemonicParsing="false" onAction="#prikaziAlternativneRute" prefHeight="25.0" prefWidth="141.0" text="Prikazi dodatne rute" />
+   </children>
+</Pane>

@@ -1,0 +1,4 @@
+Relacija: G_0_0 -> G_1_1
+UkupnoVrijeme: 6:33
+Cijena: 986
+Vrijeme: 2025-08-24 01:59:21
